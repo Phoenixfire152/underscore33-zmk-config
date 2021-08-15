@@ -87,7 +87,7 @@ behaviors {
 // | BT1 | BOOT|     |      |     |      |      |      |      |      |
 //             | CTL | ALT |  ENT | SPC | GUI  | CTL |
                         bindings = <
-   &bt BT_CLR   &trans         &kp PGUP       &trans  &trans     &kp C_PREV    &kp C_NEXT    &kp UP    &kp C_VOL_DOWN    &kp C_VOL_UP
+   &bt BT_CLR   &trans         &kp PGUP       &trans  &trans     &kp C_PREV    &kp C_NEXT    &kp UP    &kp C_VOL_DN    &kp C_VOL_UP
    &bootloader  &kp HOME       &kp PGDN       &kp END &kp C_AL_CALC     &kp C_MUTE    &kp LEFT  &kp DOWN  &kp RIGHT &kp C_PLAY
    &bt BT_SEL 0 &bt BT_SEL 1   &btBT_SEL 2    &trans  &trans     &trans    &trans    &trans    &trans    &trans
    &reset       &trans    &trans
